@@ -12,10 +12,8 @@ void MGOS_M5Stack::begin(bool LCDEnable) {
         isInited = true;
     }
 
-    LOG(LL_INFO, ("1"));
     // LCD INIT
     if (LCDEnable == true) {
-        LOG(LL_INFO, ("2"));
         Lcd.begin();
     }
 }
